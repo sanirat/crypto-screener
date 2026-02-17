@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: crypto-screener
+    env: docker
+    plan: free
+    autoDeploy: true
